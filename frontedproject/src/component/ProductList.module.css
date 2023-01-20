@@ -1,0 +1,24 @@
+.mainproduct{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.productcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.productcontainer>div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: cadetblue;
+    
+}
+
